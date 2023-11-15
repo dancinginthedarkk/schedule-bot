@@ -1,0 +1,25 @@
+{
+  "name": "schedule-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "DEBUG='telegraf:*' nodemon scr/bot.js",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "lint": "eslint . --ext .js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0",
+    "prettier": "3.1.0"
+  }
+}
