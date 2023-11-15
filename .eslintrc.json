@@ -1,4 +1,4 @@
-module.exports = {
+{
     "env": {
         "browser": true,
         "es2021": true
@@ -24,6 +24,6 @@ module.exports = {
     "rules": {
         "no-var": "error",
         "quotes": ["error", "single"],
-        "no-duplicate-imports": "error",
+        "no-duplicate-imports": "error"
     }
 }
